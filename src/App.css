@@ -1,0 +1,113 @@
+
+.header{
+  text-align: center;
+}
+
+.header h1{
+  text-shadow: 2px 4px 2px #ccc;
+}
+
+.underLine{
+  background-color: #ccc;
+  width: 100%;
+  height: 2px;
+}
+
+.resultBox{
+  max-width: 300px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: right;
+}
+p{
+  margin: 0;
+}
+.sik{
+  font-size: 20px;
+  color: #777;
+}
+.result{
+  color: rgb(211, 58, 58);
+  font-size: 50px;
+}
+
+.calculatorBox{
+  height: 580px;
+}
+.resultBoxHistory{
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  height: 580px;
+}
+
+.history{
+  margin: 20px 0;
+}
+
+.result2{
+  color: rgb(211, 58, 58);
+  font-size: 30px;
+}
+
+.buttonBox{
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.button {
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button img{
+  width: 40px;
+}
+
+.grey{
+  background-color: #ccc;
+}
+.lightgrey{
+  background-color: #eee;
+}
+.pink{
+  background-color: rgb(216, 163, 163);
+}
+.hotpink{
+  background-color: rgb(211, 58, 58);
+}
+
+.buttonBoxBottom{
+  display: flex;
+  justify-content: center;
+}
+
+.bigButton{
+  height: 160px;
+}
+
+.imageButtonBox{
+  max-width: 360px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imageButtonBox img{
+  width: 100px;
+  cursor: pointer;
+}
+
